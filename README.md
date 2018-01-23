@@ -16,20 +16,20 @@ $ docker run -d \
  -e DB_HOST=postgresql.example.com \
  -e DB_USER=admin \
  -e DB_PASSWORD=mypassword \
- guizmaii/pgbouncer:v1.7.2
+ guizmaii/pgbouncer:v1.8.1
 ```
 Or You can mount config file into docker container:
 ```bash
 $ docker run -d \
  --name pgbouncer \
  -v pgbouncer-config-file:/etc/pgbouncer/pgbouncer.ini \
- guizmaii/pgbouncer:v1.7.2
+ guizmaii/pgbouncer:v1.8.1
 ```
 
 ## Installation
 
 ```bash
-$ docker pull guizmaii/pgbouncer:v1.7.2
+$ docker pull guizmaii/pgbouncer:v1.8.1
 ```
 ## Configuration
 
